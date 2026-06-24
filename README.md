@@ -29,4 +29,3 @@ Para ejecutar la suite de pruebas unitarias con Jest, utiliza el comando:
 npm test
 ```
 
-### Prueba modificación de Readme
