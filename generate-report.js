@@ -3,7 +3,7 @@ const path = require("path");
 
 console.log("Generando reporte web simplificado de integración continua...");
 
-const publicDir = path.join(__dirname, "../public");
+const publicDir = path.join(__dirname, "public");
 
 if (!fs.existsSync(publicDir)) {
 	fs.mkdirSync(publicDir, { recursive: true });
